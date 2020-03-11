@@ -21,8 +21,36 @@ header > h1 {
     text-align: center;
 }
 
-h2 {
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+
+.item {
+    border: 3px solid pink;
+    text-align: center;
+}
+/*
+.boards {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.board {
+    background-color: #222;
+    display: inline-block;
+    width: 500px;
+    height: 740px;
+    margin: 0 40px;
+}
+
+.board > h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 50px;
     color: #FFF;
+    padding: 30px;
 }
+
+/* #f5697c ---- eraser 
+/* #ffa703 ---- pencil
